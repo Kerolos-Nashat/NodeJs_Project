@@ -1,0 +1,1 @@
+import { Router } from "express";import specialtyController from "./specialty.controller.js";const router = Router();router.get("/", specialtyController.getAllSpecialties);export default router;
